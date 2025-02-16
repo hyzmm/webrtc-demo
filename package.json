@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "name": "webrtc-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "server": "node server/signaling-server.js",
+    "dev": "npx http-server -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
